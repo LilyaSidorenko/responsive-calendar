@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
     <title>Calendar</title>
     <link rel="stylesheet" href="css/lib/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dark-theme.css">
-    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
+
 
 </head>
 <body>
 <div class="calendar" id="calendar">
-    <div class="change-theme">
-        <h4 class="change-theme__name"> theme</h4>
-        <a class="change-theme__link" id="theme" data-theme="dark-theme">change</a>
+    <div class="row calendar__wrapper">
+        <div class="col-md-2 col-xs-12 change-theme">
+            <h4 class="change-theme__name"> theme</h4>
+            <a class="change-theme__link" id="theme" data-theme="dark-theme">change</a>
+        </div>
+        <h1 class="col-md-8 col-xs-12 calendar__title"><i class="glyphicon glyphicon-calendar"></i>June 2017</h1>
+        <a href="javascript:window.print()" class="col-md-2 col-xs-12 calendar__print">Print calendar</a>
+
     </div>
-    <a href="javascript:window.print()" class="calendar__print">Print calendar</a>
-
-    <h1 class="calendar__title"><i class="glyphicon glyphicon-calendar"></i>June 2017</h1>
-
     <ul class="row days">
 
 

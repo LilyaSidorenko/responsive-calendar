@@ -2,10 +2,11 @@
     display: none;
 }
 .days__item{
-    border-width: 0 2px 2px 0;
+    border:none;
 }
 .days__item {
-    height: 128px;
+    height: auto;
+    width: 100%;
 }
 .days__point {
     padding: 0;

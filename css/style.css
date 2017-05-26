@@ -5,15 +5,17 @@
     text-align: center;
     color: #fff;
     margin: 0;
-    padding: 20px;
+
+}
+.calendar__wrapper {
     background: #4e8792;
+    padding: 20px;
 
 }
 .calendar__print {
-    position: absolute;
-    left: 20px;
-    top: 30px;
     color: #c9e2b3;
+    line-height: 3;
+    text-align: center;
 }
 .calendar__print:hover {
     color: #c9e2b3;
@@ -81,9 +83,8 @@
     resize: none;
 }
 .change-theme {
-    position: absolute;
-    right: 20px;
-    top: 15px;
+    text-align: center;
+
 }
 .change-theme__name {
     display: inline-block;
