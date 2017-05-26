@@ -1,0 +1,41 @@
+.calendar_dark-theme {
+    background-color: #122b40;
+
+
+}
+.calendar_dark-theme .calendar__title {
+    color: #e4f2f2;
+}
+.calendar_dark-theme .days__item {
+    border-color: #1b6d85;
+}
+.calendar_dark-theme .calendar__title {
+    background-color: #c7254e;
+}
+.calendar_dark-theme .weekdays__item {
+    color: #e4f2f2;
+}
+.calendar_dark-theme .days__item:hover {
+    background-color: #204d74;
+}
+.calendar_dark-theme .days__item_other-month {
+    background-color: #101010;
+}
+.calendar_dark-theme .days__date {
+    color: #ab6381;
+    background-color: #e4f2f2;
+}
+.calendar_dark-theme .add-note {
+    background-color: #e4f2f2;
+}
+
+.calendar_dark-theme .add-note__button {
+    background-color: #c7254e;
+    border-color: #c7254e;
+}
+.calendar_dark-theme .add-note__title {
+    color: #204d74;
+}
+.calendar_dark-theme .change-theme__name:before {
+    content: 'Dark';
+}

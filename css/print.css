@@ -1,0 +1,13 @@
+.calendar__print, .change-theme {
+    display: none;
+}
+.days__item{
+    border-width: 0 2px 2px 0;
+}
+.days__item {
+    height: 128px;
+}
+.days__point {
+    padding: 0;
+    width: 100%;
+}
